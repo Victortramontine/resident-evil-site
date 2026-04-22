@@ -22,15 +22,12 @@ body {
 }
 
 @font-face {
-    font-family: 'AlchemyCustom';
-    src: url('fonts/alchemy.ttf');
+    font-family: 'Alchemy';
+    src: url('fonts/alchemy.ttf') format('truetype');
 }
 
 #texto {
-    font-family: 'AlchemyCustom', serif;
-    font-size: 22px;
-    line-height: 1.6;
-    text-shadow: 2px 2px 4px black;
+    font-family: 'Alchemy', serif;
 }
 
 /* BOTÕES */

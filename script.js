@@ -1,17 +1,13 @@
 const textos = [
 `May 16, 1998
 
-A rumor is going around that a researcher who tried to escape the estate last night was shot.
+A rumor is going around that a researcher who tried to escape the estate last night was shot.`,
 
-My entire body feels hot and itchy and I'm sweating all the time now.`,
+`My entire body feels hot and itchy and I'm sweating all the time now.`,
 
-`I scratched the swelling on my arm and a piece of rotten flesh just dropped off.
+`I scratched the swelling on my arm and a piece of rotten flesh just dropped off.`,
 
-What the hell's happening to me?`,
-
-`The infection is progressing faster than expected.
-
-Containment is no longer possible.`
+`What the hell's happening to me?`
 ];
 
 let indice = 0;
@@ -34,7 +30,20 @@ function voltar() {
     }
 }
 
-/* teclado (igual jogo) */
+/* CLIQUE DO MOUSE */
+const area = document.getElementById("area");
+
+area.addEventListener("click", () => {
+    avancar(); // botão esquerdo
+});
+
+/* BLOQUEAR MENU DO BOTÃO DIREITO */
+area.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+    voltar(); // botão direito
+});
+
+/* TECLADO OPCIONAL */
 document.addEventListener("keydown", (e) => {
     if (e.key === "ArrowRight") avancar();
     if (e.key === "ArrowLeft") voltar();
