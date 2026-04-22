@@ -1,48 +1,56 @@
 body {
     margin: 0;
-    font-family: "Courier New", monospace;
     background: url("img/fundo.jpg") no-repeat center center fixed;
     background-size: cover;
-    color: #e0e0e0;
+    color: white;
 }
 
+/* Escurecimento leve */
 .overlay {
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: rgba(0,0,0,0.35);
+    position: relative;
 }
 
-.documento {
-    width: 500px;
-    background: rgba(20, 20, 20, 0.9);
-    padding: 30px;
-    border: 2px solid #888;
-    box-shadow: 0 0 15px black;
+/* TEXTO PRINCIPAL */
+.texto-container {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 60%;
+}
+
+@font-face {
+    font-family: 'AlchemyCustom';
+    src: url('fonts/alchemy.ttf');
 }
 
 #texto {
+    font-family: 'AlchemyCustom', serif;
+    font-size: 22px;
+    line-height: 1.6;
+    text-shadow: 2px 2px 4px black;
+}
+
+/* BOTÕES */
+.controles {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.btn {
+    font-family: 'Alchemy', serif;
     font-size: 18px;
-    line-height: 1.5;
-    min-height: 150px;
-}
-
-.botoes {
-    margin-top: 20px;
-    text-align: right;
-}
-
-button {
-    background: #111;
-    color: #fff;
-    border: 1px solid #888;
-    padding: 10px 15px;
-    margin-left: 10px;
     cursor: pointer;
+    opacity: 0.8;
+    text-shadow: 1px 1px 3px black;
 }
 
-button:hover {
-    background: #333;
+.btn:hover {
+    opacity: 1;
 }

@@ -1,8 +1,17 @@
 const textos = [
-    "Relatório 01:\n\nO incidente começou às 03:47 da manhã.",
-    "Relatório 02:\n\nOs experimentos fugiram do controle.",
-    "Relatório 03:\n\nA equipe foi evacuada imediatamente.",
-    "Relatório Final:\n\nNão há sobreviventes."
+`May 16, 1998
+
+A rumor is going around that a researcher who tried to escape the estate last night was shot.
+
+My entire body feels hot and itchy and I'm sweating all the time now.`,
+
+`I scratched the swelling on my arm and a piece of rotten flesh just dropped off.
+
+What the hell's happening to me?`,
+
+`The infection is progressing faster than expected.
+
+Containment is no longer possible.`
 ];
 
 let indice = 0;
@@ -25,5 +34,10 @@ function voltar() {
     }
 }
 
-// inicia
+/* teclado (igual jogo) */
+document.addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight") avancar();
+    if (e.key === "ArrowLeft") voltar();
+});
+
 atualizarTexto();
