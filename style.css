@@ -13,12 +13,15 @@ body {
     position: relative;
 }
 
-/* TEXTO PRINCIPAL */
 .texto-container {
     position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 70%;
+    max-width: 900px;
+    text-align: center;
 }
 
 @font-face {
@@ -28,6 +31,9 @@ body {
 
 #texto {
     font-family: 'Alchemy', serif;
+    font-size: 28px; /* AUMENTADO */
+    line-height: 1.8;
+    text-shadow: 2px 2px 6px black;
 }
 
 /* BOTÕES */
