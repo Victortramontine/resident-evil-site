@@ -1,52 +1,56 @@
-const textos = [
-`May 16, 1998
+document.addEventListener("DOMContentLoaded", () => {
 
-A rumor is going around that a researcher who tried to escape the estate last night was shot.`,
+    const textos = [
+`Relatório 01:
 
-`My entire body feels hot and itchy and I'm sweating all the time now.`,
+O incidente começou às 03:47 da manhã.`,
 
-`I scratched the swelling on my arm and a piece of rotten flesh just dropped off.`,
+`Relatório 02:
 
-`What the hell's happening to me?`
-];
+Os experimentos fugiram do controle.`,
 
-let indice = 0;
+`Relatório 03:
 
-function atualizarTexto() {
-    document.getElementById("texto").innerText = textos[indice];
-}
+A equipe foi evacuada imediatamente.`,
 
-function avancar() {
-    if (indice < textos.length - 1) {
-        indice++;
-        atualizarTexto();
+`Relatório Final:
+
+Não há sobreviventes.`
+    ];
+
+    let indice = 0;
+
+    const textoEl = document.getElementById("texto");
+    const area = document.getElementById("area");
+
+    function atualizarTexto() {
+        textoEl.innerText = textos[indice];
     }
-}
 
-function voltar() {
-    if (indice > 0) {
-        indice--;
-        atualizarTexto();
+    function avancar() {
+        if (indice < textos.length - 1) {
+            indice++;
+            atualizarTexto();
+        }
     }
-}
 
-/* CLIQUE DO MOUSE */
-const area = document.getElementById("area");
+    function voltar() {
+        if (indice > 0) {
+            indice--;
+            atualizarTexto();
+        }
+    }
 
-area.addEventListener("click", () => {
-    avancar(); // botão esquerdo
+    /* CLIQUE ESQUERDO */
+    area.addEventListener("click", () => {
+        avancar();
+    });
+
+    /* CLIQUE DIREITO */
+    area.addEventListener("contextmenu", (e) => {
+        e.preventDefault();
+        voltar();
+    });
+
+    atualizarTexto();
 });
-
-/* BLOQUEAR MENU DO BOTÃO DIREITO */
-area.addEventListener("contextmenu", (e) => {
-    e.preventDefault();
-    voltar(); // botão direito
-});
-
-/* TECLADO OPCIONAL */
-document.addEventListener("keydown", (e) => {
-    if (e.key === "ArrowRight") avancar();
-    if (e.key === "ArrowLeft") voltar();
-});
-
-atualizarTexto();
