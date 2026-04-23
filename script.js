@@ -26,19 +26,16 @@ Mas posso dizer que tanto quando sua mãe perguntou ou quando o Bruno te mandou 
 
 `Esses momentos todos ficaram muito marcados no meu coração durante nossas férias, ferias que se passaram tão rápido né ? ou eu acho que so aproveitei demais mesmo.
 Foi quando mais tive medo, na volta das nossas aulas, pois passariamos bem menos tempo junto durante as chamadas e a gente poderia acabar se distanciando.
-Mas bom, eu não podia estar mais errado né ? Porque apartir dai todo o dia nos começamos o dia trocando bom dia com nossas figurinhas, mandamos fotos um pro outro antes de ir pra faculdade(ouso dizer que sinto falta quando não me manda), mandavamos muitos reels de casal um pro outro(algo que tambem sinto falta), e até nos chamamos de apelidos carinhosos e no final do dia era sempre de um ou de outro: "to com saudades", toda essa demonstração de afeto sempre me faz derreter por você.`,
+Mas bom, eu não podia estar mais errado né ? Porque apartir dai todo o dia nos começamos o dia trocando bom dia com nossas figurinhas, mandamos fotos um pro outro antes de ir pra faculdade(ouso dizer que sinto falta quando não me manda), mandavamos muitos reels de casal um pro outro, e até nos chamamos de apelidos carinhosos e no final do dia era sempre de um ou de outro: "to com saudades", toda essa demonstração de afeto sempre me faz derreter por você.`,
 
 `(Por fim, a última parte)`,
 
-`Feliz aniversario Lara,
-Feliz aniversario para a pessoa que me apaixonei antes mesmo de ter visto o rosto, para a pessoa que so pelo jeito de ser me cativou de uma maneira que nenhuma outra fez, e pelo cuidado que tem, a atenção pelas minimas coisas, cada detalhe seu faz eu me encantar cada vez mais, acho que só se você se visse com meus olhos você conseguiria entender o quão incrivel é.
+`Feliz aniversario Lara;        
+Feliz aniversario para a pessoa que me apaixonei antes mesmo de ter visto o rosto, para a pessoa que so pelo jeito de ser me cativou de uma maneira que nenhuma outra fez, e pelo cuidado que tem, a atenção pelas minimas coisas, cada detalhe seu faz eu me encantar cada vez mais, acho que só se você se visse com meus olhos você entenderia o quão incrivel é.
 Eu gosto tanto de você, que mesmo com essa carta, acho até pouco para me expressar, mas não sou muito bom com palavras, espero poder passar muito mais aniversários com você, mas os próximos espero poder comemorar não so com uma carta online, mas de maneira mais próxima também.
 Feliz aniversario Bonitinha, quero que saiba o quão importante se tornou para mim desde o ano passado, o quanto eu penso e me importo com você, me faz perceber o como se tornou parte do meu dia a dia, eu te amo.`,
 
-`(Tem um pouco de lágrimas nesse papel.)
-
-(Na parte de trás tem um nome:
-    -Victor      )
+`
 `
 
     ];
